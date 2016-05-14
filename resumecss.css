@@ -1,3 +1,5 @@
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+
 body {
   margin: 0;
 }
@@ -8,13 +10,19 @@ body {
   font-family: 'PT Sans', san-serif;
 }
 
-
-
-
 h1 {
   color: #000000;
-  text-transform: uppercase;
+  text-transform: none;
+  
+  
 }
+
+
+img {
+  float: left;
+}
+
+
 
 a {
   color: #09f;
@@ -22,16 +30,22 @@ a {
 }
 
 nav a {
-  color: black;
+  color: #000000;
   text-decoration: none; 
+ 
   transition: color .15s ease-in-out;
  -moz-transition: color .15s ease-in-out;
  -webkit-transition: color .15s ease-in-out;
 }
 
+nav ul li {
+	margin-top: -20px;
+	}
+
 nav a:hover {
    color: #97A4CE;
 }
+
 
 header {
   width: 100%;
@@ -41,6 +55,8 @@ header {
   padding: 0 0px;
 }
 
+
+
 nav {
   float: left;
   margin-top: 20px;
@@ -49,11 +65,14 @@ nav {
 nav li {
   display: inline;
   padding-left: 10px;
+  
 }
 
 .logo {
-  margin-top: -20px;
+  margin-top: 5px;
   float: left;
+  padding-left: 20px;
+  
 }
 
 .clearfix {
@@ -62,8 +81,8 @@ nav li {
 
 .banner {
   width: 100%;
-  height: 250px;
-  background-image: url(http://www.tricksyknitter.com/wp-content/uploads/2012/01/knitpickspalette.jpg);
+  height: 300px;
+  background-image: url(https://static1.squarespace.com/static/552d7633e4b0b8bd6b541ce1/t/57375f85f699bbae5ec38b41/1463246730046/IMG_4581.JPG?format=1500w);
   background-repeat: no-repeat;
   background-position: center center;
 -webkit-background-size: cover;
@@ -88,5 +107,13 @@ color: white;
   margin-right: auto;
   padding-bottom: 40px;
 
-  
-  
+  h2 {
+    text-align: center;
+    margin-top: 5px;
+  float: left;
+  padding-left: 20px;
+  }
+ 
+p {
+ 	margin-left: 10px;
+ 	}

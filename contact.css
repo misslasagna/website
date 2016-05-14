@@ -32,15 +32,10 @@ a {
 nav a {
   color: #000000;
   text-decoration: none; 
- 
   transition: color .15s ease-in-out;
  -moz-transition: color .15s ease-in-out;
  -webkit-transition: color .15s ease-in-out;
 }
-
-nav ul li {
-	margin-top: -20px;
-	}
 
 nav a:hover {
    color: #97A4CE;
