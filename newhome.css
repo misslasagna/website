@@ -14,8 +14,12 @@ h1 {
   color: #000000;
   text-transform: none;
   
-  
 }
+
+
+.nav button {
+	text-decoration: none;
+	}
 
 
 img {
