@@ -13,14 +13,13 @@ body {
 h1 {
   color: #000000;
   text-transform: none;
-  
 }
 
 
-.navbutton {
+.navbutton a:link {
 	text-decoration: none;
-	color: #000000;
-	hover: none;
+	color: #000000 ;
+	display: inherit !important;
 	}
 
 
@@ -35,9 +34,6 @@ a {
   text-decoration: none; 
 }
 
-.navbutton {
-	color:#000000;
-	}
 
 nav a {
   color: #000000;
