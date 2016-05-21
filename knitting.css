@@ -22,6 +22,11 @@ h1 {
 	display: inherit !important;
 	}
 
+.title2 {
+	text-align: center;
+	padding-bottom: 30px;
+	}
+
 
 img {
   float: left;
@@ -91,7 +96,7 @@ nav li {
 .banner {
   width: 100%;
   height: 300px;
-  background-image: url(https://static1.squarespace.com/static/552d7633e4b0b8bd6b541ce1/t/57375f85f699bbae5ec38b41/1463246730046/IMG_4581.JPG?format=1500w);
+  background-image: url(https://static1.squarespace.com/static/552d7633e4b0b8bd6b541ce1/t/5740a6d737013bfb815dd667/1463854812416/IMG_5452.JPG?format=2500w);
   background-repeat: no-repeat;
   background-position: center center;
 -webkit-background-size: cover;
@@ -106,7 +111,7 @@ color: white;
 
 .bannerh1 {
   font-size: 50px;
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 .center {
@@ -126,3 +131,13 @@ color: white;
 p {
  	margin-left: 10px;
  	}
+ 	
+ 	
+.thumb {
+	padding-bottom: 30px;
+	}
+
+div {
+	display: block;
+	}
+	
