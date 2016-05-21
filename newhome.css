@@ -17,9 +17,10 @@ h1 {
 }
 
 
-.nav button {
+.navbutton {
 	text-decoration: none;
 	color: #000000;
+	hover: none;
 	}
 
 
@@ -27,12 +28,18 @@ img {
   float: left;
 }
 
-
+a:link {
+   color:inherit;
+}
 
 a {
   color: #09f;
   text-decoration: none; 
 }
+
+.navbutton {
+	color:000000;
+	}
 
 nav a {
   color: #000000;
