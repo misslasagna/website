@@ -13,8 +13,8 @@ body {
 h1 {
   color: #000000;
   text-transform: none;
-  
-  
+
+
 }
 
 
@@ -26,12 +26,12 @@ img {
 
 a {
   color: #09f;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 nav a {
   color: #000000;
-  text-decoration: none; 
+  text-decoration: none;
   transition: color .15s ease-in-out;
  -moz-transition: color .15s ease-in-out;
  -webkit-transition: color .15s ease-in-out;
@@ -60,14 +60,14 @@ nav {
 nav li {
   display: inline;
   padding-left: 10px;
-  
+
 }
 
 .logo {
   margin-top: 5px;
   float: left;
   padding-left: 20px;
-  
+
 }
 
 .clearfix {
@@ -108,7 +108,7 @@ color: white;
   float: left;
   padding-left: 20px;
   }
- 
+
 p {
  	margin-left: 10px;
  	}
